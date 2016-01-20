@@ -49,7 +49,7 @@ Triangle::isEquilateral() const {
 Triangle::Kind
 Triangle::getKind() const {
   if (isIsosceles()) {
-    return Kind::ISOSCELES;
+      return Kind::ISOSCELES;
   } else if (isEquilateral()) {
     return Kind::EQUILATERAL;
   } else {

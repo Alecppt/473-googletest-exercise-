@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/test/TestTriangle.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/TestHailstone.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/TestPlans.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

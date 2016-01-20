@@ -6,6 +6,7 @@ add_executable(runAllTests
   # Place each file name on a separate line.
   TestTriangle.cpp # This file is a placeholder and tests nothing
   TestHailstone.cpp
+  TestPlans.cpp
 )
 
 target_link_libraries(runAllTests gmock gtest gtest_main)
