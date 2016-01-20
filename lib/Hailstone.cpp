@@ -7,7 +7,7 @@ using series::satisfiesHailstone;
 
 bool
 series::satisfiesHailstone(uint64_t number) {
-  if (0 == number) {
+    if (0 == number) {
     return false;
   }
 

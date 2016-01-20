@@ -48,8 +48,8 @@ TEST(TriangleTests, testEquilateralTriangleArea){
      Triangle tri(10,10,10);
     double areaTest = tri.getArea();
     double equilArea = getArea(10, 10, 10);
-    std::cout << "areaTest: " << areaTest <<std::endl;
-    std::cout << "equilArea: " << equilArea << std::endl;
+//    std::cout << "areaTest: " << areaTest <<std::endl;
+//    std::cout << "equilArea: " << equilArea << std::endl;
     EXPECT_NEAR(areaTest, equilArea, DBL_EPSILON);
 }
 
@@ -58,8 +58,8 @@ TEST(TriangleTests, testIsosocelesTriangleArea){
     Triangle tri(10, 6, 6);
     double areaTest = tri.getArea();
     double areaIsoseles = getArea(10, 6, 6);
-    std::cout << "areaTest: "<< areaTest << std::endl;
-    std::cout << "areaIsosoceles: "<< areaIsoseles <<std::endl;
+//    std::cout << "areaTest: "<< areaTest << std::endl;
+//    std::cout << "areaIsosoceles: "<< areaIsoseles <<std::endl;
     EXPECT_NEAR(areaTest, areaIsoseles, DBL_EPSILON);
 }
 
@@ -68,8 +68,8 @@ TEST(TriangleTests, testScaleneTriangleArea){
     Triangle tri(5, 4 ,3 );
     double areaTest = tri.getArea();
     double areaSCALENE = getArea(3,4,5);
-    std::cout<< "areaTest: " << areaTest << std::endl;
-    std::cout<< "areaScalene: "<< areaSCALENE << std::endl;
+//    std::cout<< "areaTest: " << areaTest << std::endl;
+//    std::cout<< "areaScalene: "<< areaSCALENE << std::endl;
     EXPECT_NEAR(areaTest, areaSCALENE, DBL_EPSILON);
 }
 
